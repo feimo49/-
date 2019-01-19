@@ -46,7 +46,7 @@ int main(int argc, char * argv[])
 		return 0;
 	}
 	int flag = 0;
-	for (int i = 0; i <= strlen(argv[2]);i++)
+	for (int i = 0; i < strlen(argv[2]);i++)
 	{
 		if (argv[2][i]<'0' || argv[2][i]>'9')
 			flag = 1;
